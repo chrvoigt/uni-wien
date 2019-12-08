@@ -1,6 +1,7 @@
 body {
     background-color: coral;
-    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
 }
 
 #header {
@@ -10,26 +11,29 @@ body {
     padding: 10 px;
 }
 
+#main {
+    background-color: rgb(240, 230, 230);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
 #nav {
     background-color: black;
     color: antiquewhite;
-    width: 140px;
     padding: 10px;
-    float: left;
-    position: sticky;
-    top: 10vh;
+}
+
+#about,
+#downloads,
+#stats {
+    width: 300px;
+    margin: 30px;
 }
 
 a {
     text-decoration: none;
     color: rgb(243, 235, 235);
-}
-
-#main {
-    background-color: rgb(240, 230, 230);
-    width: 600px;
-    float: right;
-    padding: 10px;
 }
 
 #footer {
