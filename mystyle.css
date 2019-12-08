@@ -4,20 +4,43 @@ body {
     padding: 10px;
 }
 
+<<<<<<< HEAD
+=======
+#header {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 10 px;
+}
+
+>>>>>>> 3fe5d17bf646c5f75e10845861b9fb416e72f97a
 #main {
     background-color: rgb(240, 230, 230);
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
+<<<<<<< HEAD
     justify-content: center;
+=======
+}
+
+#nav {
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px;
+>>>>>>> 3fe5d17bf646c5f75e10845861b9fb416e72f97a
 }
 
 #about,
 #downloads,
 #stats {
     width: 300px;
+<<<<<<< HEAD
     padding: 30px;
     justify-self: stretch;
+=======
+    margin: 30px;
+>>>>>>> 3fe5d17bf646c5f75e10845861b9fb416e72f97a
 }
 
 a {
@@ -28,7 +51,13 @@ a {
 #footer {
     clear: both;
     text-align: center;
+<<<<<<< HEAD
     padding: 7px;
     background-color: #999999;
     text-align: center;
+=======
+    padding: 10 px;
+    background-color: #999999;
+    text-align: right;
+>>>>>>> 3fe5d17bf646c5f75e10845861b9fb416e72f97a
 }
