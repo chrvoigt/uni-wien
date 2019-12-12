@@ -4,31 +4,20 @@ body {
     padding: 10px;
 }
 
-#header {
-    background-color: brown;
-    color: white;
-    text-align: center;
-    padding: 10 px;
-}
-
 #main {
     background-color: rgb(240, 230, 230);
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-}
-
-#nav {
-    background-color: black;
-    color: antiquewhite;
-    padding: 10px;
+    justify-content: center;
 }
 
 #about,
 #downloads,
 #stats {
     width: 300px;
-    margin: 30px;
+    padding: 30px;
+    justify-self: stretch;
 }
 
 a {
@@ -39,7 +28,7 @@ a {
 #footer {
     clear: both;
     text-align: center;
-    padding: 10 px;
+    padding: 7px;
     background-color: #999999;
-    text-align: right;
+    text-align: center;
 }
